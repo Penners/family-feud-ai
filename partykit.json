@@ -1,0 +1,14 @@
+{
+  "$schema": "https://www.partykit.io/schema.json",
+  "name": "family-feud",
+  "main": "party/server.ts",
+  "compatibilityDate": "2024-09-09",
+  "crons": {
+    "every-minute": "*/1 * * * *"
+  },
+  "serve": {
+    "singlePageApp": true,
+    "path": "public",
+    "build": "app/client.tsx"
+  }
+}
